@@ -123,3 +123,30 @@
     background-position: 0% 50%;
   }
 }
+
+@keyframes pulse {
+  50% {
+      opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
+button:disabled {
+  background: grey;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
