@@ -9,7 +9,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = "";
 const TOTAL_MINT_COUNT = 50;
 // コトントラクトアドレスをCONTRACT_ADDRESS変数に格納
-const CONTRACT_ADDRESS = "0x416d80C12f0AB7643b2d83b5637D35C0E5bE535";
+const CONTRACT_ADDRESS = "0xFC812EC4dBB9DCdcd5FFF0BAE4F4005e5635dC00";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
